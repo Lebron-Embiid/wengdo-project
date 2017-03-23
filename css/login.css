@@ -1,0 +1,143 @@
+.head{
+	background:rgba(0,0,0,0.6)
+}
+.head ul li:last-child{
+	background: url(../img/icon_people.png) center center no-repeat;
+	display: block;
+	width: 30px;
+	height: 60px;
+	padding: 0 15px;
+}
+.head ul li:last-child a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin-left: -15px;
+}
+.head ul li:last-child:hover{
+	background: #f60 url(../img/icon_people.png) center center no-repeat;
+}
+.banner{
+	height: 700px;
+	position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 700px;
+}
+.login_box{
+	width: 290px;
+	overflow: hidden;
+	position: absolute;
+	right: 72px;
+	top: 60px;
+}
+.login_box .line{
+	display: block;
+	width: 2px;
+	height: 88px;
+	background: #fff;
+	margin: 0 auto;
+}
+.login_box .login{
+	width: 290px;
+	overflow: hidden;
+	background: #fff;
+}
+.login_box .login img{
+	display: block;
+	width: 57px;
+	height: 58px;
+	margin: 10px auto 0;
+}
+.login_box .login h3{
+	font-size: 20px;
+	color:#666666;
+	text-align: center;
+	font-weight: bold;
+}
+.login_box .login form .user,.login_box .login form .pwd{
+	display: block;
+	width: 250px;
+	height: 40px;
+	border: 1px solid #7A7A7A;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-size: 16px;
+	color:#D1D1D1;
+	text-indent: 30px;
+}
+.login_box .login form input:focus{
+	border:1px solid #A1B89B;
+}
+.login_box .login form .user{
+	background: url(../img/icon_person.png) 10px center no-repeat;
+}
+.login_box .login form .pwd{
+	background: url(../img/search.png) 10px center no-repeat;
+}
+.login_box .login form .checkbox{
+	margin-left: 20px;
+}
+.login_box .login form span{
+	margin-left: 5px;
+	line-height: 4px;
+	color:#959595;
+}
+.login_box .login form .remember{
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	color:#959595;
+}
+.login_box .login .code{
+	display: block;
+	width: 90px;
+	height: 34px;
+	border: 1px solid #7A7A7A;
+	margin:5px 10px 10px 20px;
+	float: left;
+	text-indent: 5px;
+}
+.login_box .login .code_img{
+	display: block;
+	width: 60px;
+	height: 29px;
+	float: left;
+}
+.login_box .login a{
+	color:#959595;
+	line-height: 45px;
+}
+.login_box .login .btn{
+	text-align: center;
+	background: #517A48;
+	color:#D6DDD4;
+	display: block;
+	width: 250px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.login_box .login .enter{
+	float: right;
+	margin-right: 20px;
+}
+.login_box .login .enter:hover{
+	text-decoration: underline;
+}
+footer{
+	width:100%;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0,0,0,0.9);
+	padding: 10px 0;
+}
+footer p{
+	text-align: center;
+	line-height: 5px;
+	margin-top:20px;
+}

@@ -1,0 +1,27 @@
+.content .box_right form input[type="text"]{
+	display: block;
+	width: 250px;
+	height: 40px;
+	border: 1px solid #676767;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-indent: 10px;
+}
+.content .box_right form tr{
+	height: 60px;
+	line-height: 60px;
+}
+.content .box_right form .keep,.content .box_right form .change{
+	width: 118px;
+	height: 38px;
+	border-radius: 5px;
+	color:#F1F4F0;
+	cursor: pointer;
+}
+.content .box_right form .keep{
+	background: #517A48;
+	margin-right: 12px;
+}
+.content .box_right form .change{
+	background: #B94304;
+}

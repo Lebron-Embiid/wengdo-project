@@ -1,0 +1,71 @@
+.content .info_box{
+	width: 1000px;
+}
+.content .info_box .box_left{
+	height: 800px;
+}
+.content .box_right .word{
+	width: 700px;
+	overflow: hidden;
+	margin: 20px 0 0 20px;
+}
+.content .box_right .word_list li{
+	width: 700px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.content .box_right .word_list li h3{
+	width: 130px;
+	font-size: 13px;
+	color: #878787;
+	float: left;
+	margin-right: 10px;
+}
+.content .box_right .word_right{
+	float: left;
+	width: 560px;
+}
+.content .box_right .word_right h4{
+	font-size: 14px;
+	color:#4C4C4C;
+}
+.content .box_right .word_right p{
+	font-size: 12px;
+	margin: 5px 0 10px 0;
+}
+.content .box_right .word_right span{
+	color:#BDBDBD;
+	font-size: 12px;
+	margin-right: 20px;
+}
+/*page*/
+.content .box_right .word .page{
+	height: 20px;
+	margin: 20px 0 0 140px;
+}
+.content .box_right .word .page li{
+	float: left;
+	margin-right: 3px;
+	background: #FFFFFF;
+	border:1px solid #DDDDDD;
+	font-size: 12px;
+}
+.content .box_right .word .page li:last-child{
+	padding: 0 10px;
+}
+.content .box_right .word .page li a{
+	width: 28px;
+	height: 28px;
+	display: block;
+	text-align: center;
+	color:#6E7070;
+}
+.content .box_right .word .page li:hover,.content .box_right .word .page li.active{
+	background: #B94404;
+}
+.content .box_right .word .page li:hover a,.content .box_right .word .page li.active a{
+	color:#fff;
+}
+.content .box_right .word .page li:last-child:hover{
+	background: #fff;
+}

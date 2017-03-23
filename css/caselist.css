@@ -1,0 +1,131 @@
+/*公共*/
+.width{width:1160px;margin:0 auto;}
+.center{width: 1190px;margin: 0 auto;}
+.public{width:901px;margin: 0 auto;}
+.left{float: left;}
+.right{float: right;}
+.clear:after{content: ""; height:0; overflow:hidden; clear:both}
+.clear{zoom:1;}
+/*内容*/
+.content{
+	overflow: hidden;
+}
+.content h3{
+	color:#838383;
+	margin:30px 0 50px 60px;
+	text-indent: 30px;
+	background: url(../img/house.png) left center no-repeat;
+}
+.content h3 a{
+	color:#E37A3D;
+}
+.content h4{
+	font-size: 20px;
+	font-weight: bold;
+	color:#2C5421;
+	text-align: center;
+	padding-bottom: 10px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*案例展示*/
+.case{
+	width: 100%;
+	background: #EEEEEE;
+}
+.case .center{
+	width: 1200px;
+	margin: 0 auto;
+}
+.case .case_show ul li{
+	float: left;
+}
+.case .case_show .nav{
+	width: 600px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto 20px;
+	padding-top: 20px;
+}
+.case .case_show .nav li{
+	margin-right: 20px;
+	width: 100px;
+	height: 24px;
+	line-height: 24px;
+}
+.case .case_show .nav li a{
+	color:#8B8B8B;
+	display: block;
+	width: 100px;
+	height: 24px;
+	text-align: center;
+}
+.case .case_show .nav li:hover a,.case .case_show .nav li.active a{
+	background: #FF6E27;
+	color: #fff;
+}
+.case .case_show .img li{
+	margin-right: 11px;
+	position: relative;
+}
+.case .case_show .img .mask{
+	width: 288px;
+	height: 78px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top:75px;
+	display: none;
+	cursor: pointer;
+}
+.case .case_show .img li:hover .mask{
+	display: block;
+}
+.case .case_show .img .mask span{
+	display: block;
+	width: 29px;
+	height: 18px;
+	margin:10px auto 0;
+}
+.case .case_show .img .mask p{
+	text-align: center;
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*分页*/
+.page{
+	width: 336px;
+	margin: 0 auto;
+}
+.page ul{
+	padding:50px 0 100px 0;
+}
+.page ul li{
+	float: left;
+	height: 19px;
+	line-height: 19px;
+	margin-right: 10px;
+}
+.page ul li.on{
+	width:19px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+}
+.page ul li a{
+	color:#404040;
+}
+.page ul li.active,.page ul li:hover{
+	background: #F37E1F;
+}
+.page ul li.active a,.page ul li:hover a{
+	color:#fff;
+}
+.page ul li.no:hover{
+	background: #EEEEEE;	
+}
+.page ul li.no:hover a{
+	color:#404040;
+}

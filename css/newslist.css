@@ -1,0 +1,125 @@
+/*内容*/
+.content{
+	overflow: hidden;
+}
+.content h3{
+	color:#838383;
+	margin:30px 0 50px 60px;
+	text-indent: 30px;
+	background: url(../img/house.png) left center no-repeat;
+}
+.content h3 a{
+	color:#E37A3D;
+}
+.content h4{
+	font-size: 20px;
+	font-weight: bold;
+	color:#2C5421;
+	text-align: center;
+	padding-bottom: 70px;
+	border-bottom: 1px solid #F4F4F4;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*图片内容*/
+.title{
+	width: 980px;
+	margin: 0 auto;
+}
+.title ul li{
+	width: 980px;
+	height: 155px;
+	padding: 20px 0;
+	border-bottom: 1px solid #F4F4F4;
+}
+.title div{
+	float: left;
+}
+.title .left{
+	width: 238px;
+	height: 153px;
+	margin-right: 28px;
+}
+.title .center{
+	width: 72px;
+	height: 72px;
+	margin-right: 25px;
+	background: #E7E7E7;
+	margin-top: 40px;
+}
+.title .center h3{
+	width: 50px;
+	font-size: 18px;
+	margin: 15px auto 0;
+	text-align: center;
+	color:#070707;
+	font-weight: bold;
+}
+.title .center p{
+	width: 50px;
+	font-size: 14px;
+	margin: 0 auto;
+	text-align: right;
+	font-weight: bold;
+	line-height: 10px;
+}
+.title .right{
+	width: 615px;
+}
+.title .right h4{
+	font-size: 18px;
+	color:#000;
+	font-weight: bold;
+	margin:10px 0;
+}
+.title .right span{
+	font-size: 18px;
+	color:#414141;
+}
+.title .right p{
+	font-size: 12px;
+	color:#828282;
+	line-height: 25px;
+}
+.title .right p a{
+	color:#FDA33C;
+}
+.title .right h4:hover{
+	color: #FE783C;
+}
+/*分页*/
+.page{
+	width: 336px;
+	margin: 0 auto;
+}
+.page ul{
+	padding:50px 0 100px 0;
+}
+.page ul li{
+	float: left;
+	height: 19px;
+	line-height: 19px;
+	margin-right: 10px;
+}
+.page ul li.on{
+	width:19px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+}
+.page ul li a{
+	color:#404040;
+}
+.page ul li.active,.page ul li:hover{
+	background: #F37E1F;
+}
+.page ul li.active a,.page ul li:hover a{
+	color:#fff;
+}
+.page ul li.no:hover{
+	background: #fff;	
+}
+.page ul li.no:hover a{
+	color:#404040;
+}
